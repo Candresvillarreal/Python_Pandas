@@ -1,0 +1,11 @@
+conda activate pandas_playground
+
+coda deactivate
+
+conda info --envs
+
+jupyter notebook
+
+
+
+
