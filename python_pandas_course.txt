@@ -1,11 +1,35 @@
+Activate environment (Using Anaconda prompt)
+
 conda activate pandas_playground
 
-coda deactivate
+conda deactivate
 
 conda info --envs
 
+Start Jupyter
+
 jupyter notebook
 
+shift + tab shows de documentation  (pd.Series()) (inside the ())
+
+================================================ pandas-datareader library =======================================================
+
+conda install pandas-datareader -> to install pandas-datareader library
+
+================================================ xlrd and openpyxl Libraries =====================================================
+To write and read Excel Files
+
+conda install xlrd openpyxl
+
+===================================================================================================================================
+
+import pandas
+from pandas_datareader import data
+ 
+stocks = data.DataReader(
+    name="MSFT", data_source="stooq", start="2010-01-01", end="2020-12-31"
+)
 
 
-
+[] -> List
+{} -> Dictionary (Key : Value)
