@@ -1,3 +1,7 @@
+===================================================================================================================================
+IMPORTANT -> on many jupyters notebooks when files are used, could be necessary change the folder´s name to DATA
+===================================================================================================================================
+
 Activate environment (Using Anaconda prompt)
 
 conda activate pandas_playground
